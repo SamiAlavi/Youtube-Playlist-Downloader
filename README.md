@@ -11,13 +11,15 @@ Script to download any YouTube Playlist Audios (including Private Playlists)
 
 ## Instructions
 
-1. Download the `YouTube Playlist Webpage` by right clicking on the page and clicking on `Save As`
-2. Edit the `main.py` file
-3. Replace `dirDownload` value with the path where you want to store the downloaded MP3
-4. Replace `pathYoutubeLiked` value with the path of the downloaded `YouTube Playlist Webpage`
-5. Replace `limit` value with the number of MP3(s) you want to download
-6. Install the required packages by running `pip install -r requirements.txt`
-7. Run `main.py`
+1. Install the required packages by running `pip install -r requirements.txt`
+2. Download [ffmpeg](https://ffmpeg.org/download.html)
+3. Copy `ffmpeg.exe`, `ffplay.exe`, `ffprobe.exe` to the directory where `youtube-dl.exe` is present.
+4. Download the `YouTube Playlist Webpage` by right clicking on the page and clicking on `Save As`
+5. Edit the `main.py` file
+6. Replace `dirDownload` value with the path where you want to store the downloaded MP3
+7. Replace `pathYoutubeLiked` value with the path of the downloaded `YouTube Playlist Webpage`
+8. Replace `limit` value with the number of MP3(s) you want to download
+9. Run `main.py`
 
 ## License
 
